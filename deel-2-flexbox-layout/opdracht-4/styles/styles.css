@@ -1,1 +1,51 @@
 /*Schrijf hier jouw CSS*/
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.outer-col-1 {
+    display: flex;
+    flex-basis: 400px;
+}
+
+.outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 2000px;
+}
+
+.inner-row {
+    display: flex;
+    flex-basis: 1500px;
+}
+
+.inner-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 1900px;
+}
+
+header {
+    display: flex;
+    flex-basis: 200px;
+}
+
+article {
+    display: flex;
+    flex-basis: 860px;
+}
+
+footer {
+    display: flex;
+    flex-basis: 160px;
+}
+
+aside {
+    display: flex;
+    flex-basis: 450px;
+}
+
+
