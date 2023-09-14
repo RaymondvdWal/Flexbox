@@ -1,1 +1,32 @@
 /*Schrijf hier jouw CSS*/
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.col-1 {
+    display: flex;
+    flex-basis: 500px;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 2000px;
+}
+
+header {
+    display: flex;
+    flex-basis: 150px;
+}
+
+article {
+    display: flex;
+    height: 900px;
+}
+
+footer {
+    display: flex;
+    flex-basis: 150px;
+}/*Schrijf hier jouw CSS*/

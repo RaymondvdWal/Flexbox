@@ -1,1 +1,86 @@
 /*Schrijf hier jouw css*/
+
+/*Schrijf hier jouw css*/
+
+body {
+    background-color: #F2F3D9;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #030027;
+    color: #fff;
+    padding: 40px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 18px;
+}
+
+.logo {
+    font-family: "Roboto Light", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar a:hover{
+    color: #C16E70;
+}
+
+ul {
+    list-style: none;
+}
+
+.headText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    padding: 70px;
+}
+
+h1 {
+    margin-bottom: 0;
+    line-height: 1px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.textBlock {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex:1 1 0;
+    height: 350px;
+    background-color: #C16E70;
+    text-align: center;
+    padding: 10px;
+    max-width: 280px;
+    border-radius: 5px;
+}
+
+.textContainer {
+    display: flex;
+    gap: 50px;
+    padding: 0 40px 40px 40px;
+}
+
+
